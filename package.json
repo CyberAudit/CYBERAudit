@@ -1,0 +1,46 @@
+{
+  "name": "CyberAudit",
+  "version": "1.0.0",
+  "description": "CyberAudit ERC20 Token Contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "solhint": "solhint \"contracts/**/*.sol\"",
+    "solium": "solium -d contracts",
+    "coverage": "solidity-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberAudit/CyberAudit.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "erc20",
+    "token",
+    "coin",
+    "crytocurrency",
+    "smart",
+    "contract"
+  ],
+  "author": "Cyber Audit Team",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CyberAudit/CyberAudit/issues"
+  },
+  "homepage": "https://github.com/CyberAudit/CyberAudit#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "1.12.0"
+  },
+  "devDependencies": {
+    "bignumber.js": "^7.2.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "pify": "^5.0.0"
+  }
+}
